@@ -36,22 +36,6 @@ Agora execute o comando de verificação para observar se foi alterado.
 git clone https://github.com/GBRodrgues/ByteBurguer.git
 ```
 
-### 1.3. Rotina de desenvolvimento
-
-Lembrem-se de sempre executarem as modificações sempre na branc 'dev'.
-Para isso, navege até a página do projeto e mude a sua branch padrão para a dev:
-
-```bash
-cd ByteBurguer
-git checkout dev
-```
-
-Agora apenas **lembre-se** de sempre atualizar o código antes de desenvolver. Para isso execute um
-
-```bash
-git fetch #para atualizar as informações de atualizações no código
-git pull origin dev #aplicando as mudanças mapeadas online no seu repositório local da branch dev
-```
 
 ## Passo 2: Instalar Dependências
 
@@ -99,4 +83,3 @@ npm start # ou yarn start
 ## Passo 4: Acessar pelo navegador as rotas
 
 - [Página de Login](localhost:8080) - localhost:8080
-- [Página Principal](localhost:8080/home) - localhost:8080/home
